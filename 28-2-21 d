@@ -1,0 +1,16 @@
+x=[1,2,3,2,1,3,2,1]
+l=[]
+l1=[]
+o=[]
+for i in x:
+    if i not in l:
+        l.append(i)
+        l1.append(x.count(i))
+        
+for j in l1 :
+    if l1.count(j)%2==1:
+        o.append(l1.count(j))
+        j=j+1
+        
+        
+        
