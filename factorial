@@ -1,0 +1,7 @@
+n=int(input("enter the number"))
+f=1
+i=n
+while(i>0):
+    f=f*i
+    i=i-1
+print("Factorial is",f) 
